@@ -10,3 +10,11 @@ const ns = Array.from(Array(20).keys())
 ns.forEach(n =>
   console.log(`factorial(${n}): ${factorial(n).toLocaleString()}`)
 )
+
+const repeatChar = T.trampoline(function _repeatChar(ch, len, acc = '') {
+  return len > 0
+    ? T.recurse(() => _repeatChar(ch, len - 1, acc + ch))
+    : T.done(acc)
+})
+
+console.log(repeatChar('-', 100000))
