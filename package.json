@@ -1,0 +1,14 @@
+{
+  "name": "bouncy",
+  "version": "0.0.0",
+  "description": "Quick go at writing a trampoline from scratch",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "author": "Jonathan Taylor",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.16.0"
+  }
+}
