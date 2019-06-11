@@ -8,7 +8,7 @@
   },
   "author": "Jonathan Taylor",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^5.16.0"
   }
 }
