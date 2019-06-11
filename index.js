@@ -1,4 +1,4 @@
-const T = require('./bouncy')
+const T = require('./tiny-trampoline.js')
 
 const factorial = T.trampoline(function _factorial(n, acc = 1) {
   return n > 1

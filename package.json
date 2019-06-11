@@ -1,7 +1,7 @@
 {
-  "name": "bouncy",
+  "name": "tiny-trampoline",
   "version": "0.0.0",
-  "description": "Quick go at writing a trampoline from scratch",
+  "description": "Tiny implementation of a trampoline",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint ."
